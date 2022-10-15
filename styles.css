@@ -1,1 +1,17 @@
-
+.head{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    padding: auto;
+    justify-content: space-between;
+    
+}
+h2{
+    color: red;
+    
+}
+h3{
+    color: green;
+    justify-content: center;
+    padding-bottom: ;
+}
