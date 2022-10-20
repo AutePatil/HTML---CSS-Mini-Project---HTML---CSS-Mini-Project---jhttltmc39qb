@@ -1,34 +1,61 @@
-.head{
+#intro {
     display: flex;
-    align-items: center;
-    background-color: black;
-    padding: auto;
-    justify-content: space-around       ;
+    min-width: 100px;
+    height: 50%;
     
 }
-h1{
-    color: red;
-    /* font-size: large; */
-    font-family: sans-serif;
-    font-weight: 1000;
+img {
+    display: flex;
+    min-width: 50px;
+    height: 10%;
+
 }
-h3{
-    color: green;
+.profile {
     justify-content: center;
-    padding-bottom: ;
+    text-align: center;
+    border: 1px;
 }
 
-.navbar{
-    display: flex; 
-    justify-content: space-between;
-    padding-top: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: chocolate;
-    cursor: pointer;
+.btn {
+    margin: 1%;
+    border: 5px;
+    border-radius: 5%;
 }
-.navbar :hover{
-    font-weight: 100;
-    /* color: ; */
-    background-color: darkcyan;
+body {
+    display: block;
+    background-color: antiquewhite;
+    height: auto;
+    margin: 0%;
+}
+.head {
+    text-align: center;
+    background-color: darkolivegreen;
+    color: chocolate;
+    padding: 0.8rem;
+}
 
+img {
+    display: block;
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+    background-color: black;
+    color: rgb(6, 207, 140);
+    padding: 10px;
+
+}
+.para {
+    color: chocolate;
+}
+.mother {
+    text-align: center;
+    background-color: black;
+    color: rgb(6, 207, 140);
+    padding: 10px;
+}
+
+p {
+    color: chocolate;
 }
