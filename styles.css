@@ -1,26 +1,75 @@
-#intro {
+/* #intro {
     display: flex;
-    min-width: 100px;
-    height: 50%;
     text-align: center;
-}
-img {
+    flex-wrap: wrap; */
+/* } */
+/* .cam{
     display: flex;
     min-width: 50px;
-    height: 10%;
+    width: 50%; */
 
-}
-.profile {
+/* } */
+/* .profile {
     justify-content: center;
     text-align: center;
     border: 1px;
-}
+} */
 
-.btn {
+/* .btn {
     margin: 1%;
     border: 5px;
     border-radius: 5%;
+} */
+#header {
+    display: flex;
+    height: 100%;
 }
+
+#landing-text {
+        display: flex;
+        flex: 0 1 40vw;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    
+}
+#landing-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: cursive;
+}
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
     display: block;
     background-color: antiquewhite;
@@ -28,9 +77,10 @@ body {
     margin: 0%;
     scroll-behavior: smooth;
 }
+
 .head {
     text-align: center;
-    background-color: darkolivegreen;
+    background-color: rgb(37, 38, 36);
     color: chocolate;
     padding: 0.8rem;
 }
@@ -47,9 +97,11 @@ img {
     padding: 10px;
 
 }
+
 .para {
     color: chocolate;
 }
+
 .mother {
     text-align: center;
     background-color: black;
@@ -73,16 +125,13 @@ p {
     padding: 10px;
 }
 
-.bottom {
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
+footer {
     text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
 }
-
-.logo {
-    height: 10cm;
-    width: 2cm;
-    align-content: center;
-    justify-content: end;
+footer h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
 }
