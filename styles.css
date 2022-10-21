@@ -2,7 +2,7 @@
     display: flex;
     min-width: 100px;
     height: 50%;
-    
+    text-align: center;
 }
 img {
     display: flex;
@@ -26,6 +26,7 @@ body {
     background-color: antiquewhite;
     height: auto;
     margin: 0%;
+    scroll-behavior: smooth;
 }
 .head {
     text-align: center;
@@ -58,4 +59,30 @@ img {
 
 p {
     color: chocolate;
+}
+
+.lastimg {
+    display: block;
+    width: 100%;
+}
+
+.life {
+    text-align: center;
+    background-color: black;
+    color: rgb(6, 207, 140);
+    padding: 10px;
+}
+
+.bottom {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+.logo {
+    height: 10cm;
+    width: 2cm;
+    align-content: center;
+    justify-content: end;
 }
